@@ -1,0 +1,15 @@
+@import 'variables';
+
+html {
+   background-color: lightblue;
+}
+
+div {
+   width: 200px;
+   height: 200px;
+   position: fixed;
+
+   &:nth-child(1) {
+      color: yellow;
+   }
+}
