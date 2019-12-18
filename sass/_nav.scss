@@ -1,0 +1,21 @@
+li {
+   font-family: $font-stack--headings;
+   border: 10px double $color--homelighterblue;
+   line-height: 20px;
+   text-align: center;
+   padding: 10px;
+   font-size: 20px;
+   border-style: outset;
+   margin-left: 30px;
+   text-shadow: 1px 2px 3px #666;
+}
+
+li:hover {
+   border-color: transparent;
+   font-size: 18px;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}

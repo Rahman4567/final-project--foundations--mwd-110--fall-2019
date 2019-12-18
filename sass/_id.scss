@@ -1,0 +1,41 @@
+#about html {
+   background-color: $color--about--grey;
+}
+
+#about h1 {
+   border-color: red;
+   text-decoration-color: $color--about--red;
+}
+
+#about nav {
+   text-decoration: hidden;
+}
+
+#about p:nth-child(even) {
+   color: $color--about--red;
+}
+
+#about p:nth-child(odd) {
+   color: $color--about--tan;
+}
+
+#home {
+   background-color: $color--homelightblue2;
+}
+
+#home p:nth-child(even) {
+   color: $color--homedarkblue;
+}
+
+#home p:nth-child(odd) {
+   color: $color--homelighterblue;
+}
+
+#contact p {
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+#artworks p:nth-child(1) {
+   background-color: red;
+}
