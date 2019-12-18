@@ -3,48 +3,47 @@ h1 {
    font-weight: 700;
    font-size: 40px;
    padding: 50px;
-   border: 90px double darken(blue, 60%);
-   border-radius: 90px;
+   border: $border--size double darken(blue, 60%);
+   border-radius: $border--size;
    border-style: hidden groove;
    border-color: $color--homedarkblue;
    text-align: center;
    text-decoration: line-through;
    text-decoration-style: solid;
    text-decoration-color: $color--homedarkblue;
-   margin-bottom: 40px;
-   outline-offset: -10px;
+   margin-bottom: $height--body;
 }
 
 #artworks h1 {
    font-family: $font-stack--reading-text2;
    font-weight: 700;
-   font-size: 40px;
+   font-size: $height--body;
    padding: 50px;
-   border: 90px double darken(blue, 60%);
-   border-radius: 90px;
+   border: $border--size double darken(blue, 60%);
+   border-radius: $border--size;
    border-style: hidden groove;
    border-color: $color--artworks--jeanblue;
    text-align: center;
    text-decoration: line-through;
    text-decoration-style: solid;
-   text-decoration-color: $color--artworks--jeanblue;
-   margin-bottom: 40px;
+   text-decoration-color: $color--artworks--brown;
+   margin-bottom: $height--body;
 }
 
 #contact h1 {
    font-family: $font-stack--reading-text2;
    font-weight: 700;
-   font-size: 40px;
+   font-size: $height--body;
    padding: 50px;
-   border: 90px double darken(blue, 60%);
-   border-radius: 90px;
+   border: $border--size double darken(blue, 60%);
+   border-radius: $border--size;
    border-style: hidden groove;
    border-color: $color--contact--brick;
    text-align: center;
    text-decoration: line-through;
    text-decoration-style: solid;
    text-decoration-color: $color--contact--brick;
-   margin-bottom: 40px;
+   margin-bottom: $height--body;
 }
 
 h2 {
@@ -54,5 +53,17 @@ h2 {
    text-align: center;
    text-shadow: 7px -1px 5px rgba(150, 150, 150, .63);
    text-decoration: underline overline;
-   margin-top: 90px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+h3 {
+   font-family: $font-stack--reading-text2;
+   font-size: 18px;
+   font-weight: 60;
+   text-align: center;
+   text-shadow: 7px -1px 5px rgba(150, 150, 150, .63);
+   text-decoration: underline overline;
+   margin-top: 20px;
+   margin-bottom: 100px;
 }

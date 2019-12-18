@@ -1,3 +1,14 @@
+.fixed-nav-bar {
+   position: fixed;
+   top: 30;
+   left: 30;
+   z-index: 9999;
+   width: 19%;
+   color: inherit;
+   border: 50% double $color--homelighterblue;
+   padding-right: 30px;
+}
+
 li {
    font-family: $font-stack--headings;
    border: 10px double $color--homelighterblue;
@@ -5,7 +16,7 @@ li {
    text-align: center;
    padding: 10px;
    font-size: 20px;
-   border-style: outset;
+   border-style: inset;
    margin-left: 30px;
    text-shadow: 1px 2px 3px #666;
 }
@@ -22,7 +33,7 @@ li a:hover {
    text-align: center;
    padding: 10px;
    font-size: 20px;
-   border-style: outset;
+   border-style: inset;
    margin-left: 30px;
    text-shadow: 1px 2px 3px #666;
 }
@@ -34,19 +45,19 @@ li a:hover {
    text-align: center;
    padding: 10px;
    font-size: 20px;
-   border-style: outset;
+   border-style: inset;
    margin-left: 30px;
    text-shadow: 1px 2px 3px #666;
 }
 
 #artworks li {
    font-family: $font-stack--headings;
-   border: 10px double $color--artworks--brown;
+   border: 10px double $color--artworks--tan;
    line-height: 20px;
    text-align: center;
    padding: 10px;
    font-size: 20px;
-   border-style: outset;
+   border-style: inset;
    margin-left: 30px;
    text-shadow: 1px 2px 3px #666;
 }

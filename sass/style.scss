@@ -5,7 +5,7 @@
 
 img {
    display: block;
-   margin: 35px auto;
+   margin: 20px auto;
 }
 
 main p {
@@ -24,15 +24,11 @@ section {
    flex-direction: row;
 }
 
-nav {
-   display: block;
-   width: 100%;
+@media (max-width: 960px) {
+   body {
+      width: 720px; }
 }
-
-img {
-   margin-bottom: 20px;
-}
-
-header {
-   padding: 10px 20px;
+@media (max-width: 720px) {
+   body {
+      width: 400px; }
 }
