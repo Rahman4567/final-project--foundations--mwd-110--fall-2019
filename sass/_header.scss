@@ -14,7 +14,7 @@ h1 {
    margin-bottom: $height--body;
 }
 
-#artworks h1 {
+#portfolio h1 {
    font-family: $font-stack--reading-text2;
    font-weight: 700;
    font-size: $height--body;
@@ -22,11 +22,11 @@ h1 {
    border: $border--size double darken(blue, 60%);
    border-radius: $border--size;
    border-style: hidden groove;
-   border-color: $color--artworks--jeanblue;
+   border-color: $color--portfolio--jeanblue;
    text-align: center;
    text-decoration: line-through;
    text-decoration-style: solid;
-   text-decoration-color: $color--artworks--brown;
+   text-decoration-color: $color--portfolio--brown;
    margin-bottom: $height--body;
 }
 
